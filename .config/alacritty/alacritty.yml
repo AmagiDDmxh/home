@@ -1,7 +1,7 @@
 window:
   dimensions:
-    columns: 80
-    lines: 30
+    columns: 120
+    lines: 60
   decorations: "buttonless"
   padding:
     x: 6
@@ -22,7 +22,7 @@ font:
   italic:
     family: "SauceCodePro Nerd Font"
     style: "Bold"
-  size: 18.0
+  size: 12.0
   scale_with_dpi: true
   use_thin_strokes: true
 

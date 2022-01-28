@@ -3,6 +3,11 @@ function mcd() {
   mkdir -p "$1" && cd "$1"
 }
 
+# cd then code and Yarn at the same time
+function ccay() {
+  cd "$1" && code . && yarn
+}
+
 # Test whether command exists
 command_exists() {
   type "$1" &> /dev/null;
